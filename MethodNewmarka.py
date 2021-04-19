@@ -57,7 +57,6 @@ h = (t_end - t_start) / n
 
 newmark(h, m, alpha, c)
 t_array = []
-w
 for i in range(int(n)):
     t_array.append(h * i)
 
