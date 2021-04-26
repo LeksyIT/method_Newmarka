@@ -4,7 +4,7 @@ import numpy as np
 
 
 def func(u, ut, t):
-    return a * math.sin(omega * h * t)
+    return math.sin(omega * h * t)
 
 
 def newmark(dt, m, alpha, c):
